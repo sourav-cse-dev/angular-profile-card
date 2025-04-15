@@ -2,9 +2,9 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
-# Project Learnings & Outcomes
+## Project Learnings & Outcomes
 
-In this project I have applied two-way data binding using FormsModule of Angular.
+In this project I have learned & applied two-way data binding using [(ngModel)] in FormsModule of Angular.
 
 ## Development server
 
