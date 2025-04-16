@@ -1,17 +1,74 @@
-# Profile Card
+# Profile Card App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+- This is a simple profile card application.
+- This application have two sections, first (Profile Card) section will be dynamically updated, and in second (Update Profile) section user will give inputs.
+- Initially the everything will be blank, when the user write name, age and description field, immediately it will be displayed in the Profile Card section.
+- This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
-## Project Learnings & Outcomes
+## Project Images
 
-In this project I have learned & applied two-way data binding using [(ngModel)] in FormsModule of Angular.
+![Project Image 1](./assets/profile-card-image-initial.png)
+![Project Image 2](./assets/profile-card-image.png)
 
-## Development server
+## Project Learnings & Challenges
 
-To start a local development server, run:
+In this project I have learned & applied
+
+- _interpolation_,
+- _two-way data binding using [(ngModel)] in FormsModule_ 
+of Angular.
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+- **Node.js:** (Ideally the latest LTS version - check with `node -v`) [Download Node.js](https://nodejs.org/)
+- **npm** (usually installed with Node.js - check with `npm -v`) or **yarn** (check with `yarn --version`) [Install Yarn](https://yarnpkg.com/getting-started)
+- **Angular CLI:** (Install globally - check with `ng --version`)
+  ```bash
+  npm install -g @angular/cli
+  # or
+  yarn global add @angular/cli
+  ```
+- **Git:** (for version control) [Download Git](https://git-scm.com/)
+
+### Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone [repository URL]
+    cd [your-project-name]
+    ```
+
+2.  **Install dependencies:**
+    Using npm:
+    ```bash
+    npm install
+    ```
+    or using yarn:
+    ```bash
+    yarn install
+    ```
+
+## Development Server
+
+To run the development server:
 
 ```bash
-ng serve
+ng serve -o
+
+
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Contributions
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## Contact
+
+You can reach me at [sourav.seu.cse@gmail.com].
