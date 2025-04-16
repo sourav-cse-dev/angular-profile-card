@@ -1,8 +1,8 @@
 # Profile Card App
 
 - This is a simple profile card application.
-- This application have two sections, first (Profile Card) section will be dynamically updated, and in second (Update Profile) section user will give inputs.
-- Initially the everything will be blank, when the user write name, age and description field, immediately it will be displayed in the Profile Card section.
+- This application has two sections, first (Profile Card) section will be dynamically updated, and in second (Update Profile) section user will give inputs.
+- Initially everything will be blank, when the user write his/her name, age and description in input fields, immediately it will be displayed in the Profile Card section.
 - This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
 ## Project Images
@@ -12,10 +12,10 @@
 
 ## Project Learnings & Challenges
 
-In this project I have learned & applied
+In this project I have learned & applied,
 
 - _interpolation_,
-- _two-way data binding using [(ngModel)] in FormsModule_ 
+- _two-way data binding_ using _[(ngModel)]_ in _FormsModule_ 
 of Angular.
 
 ## Getting Started
